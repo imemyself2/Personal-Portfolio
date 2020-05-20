@@ -1,0 +1,20 @@
+{
+  "name": "web-portfolio",
+  "version": "1.0.0",
+  "description": "A personal web portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imemyself2/Personal-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imemyself2/Personal-Portfolio/issues"
+  },
+  "homepage": "https://github.com/imemyself2/Personal-Portfolio#readme"
+}
