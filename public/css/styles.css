@@ -17,10 +17,10 @@ nav {
 }
 
 ul {
+
     padding: 0;
     margin: 0;
     list-style: none;
-
 }
 
 li {
@@ -30,13 +30,20 @@ li {
 a {
     padding: 20px;
     width: 150px;
-    display: block;
+    display: inline-flex;
+    justify-content: center;
     text-decoration: none;
     color:  #e1d6de ;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: large;
     /* font-weight: bold; */
+}
+
+#navbar {
+    transition: 1s;
+    opacity: 0;
+    transition-delay: 2.2s;
 }
 
 #section1 {
@@ -52,8 +59,35 @@ a {
     transition: all 0.3s ease-out;
     
 }
+#section1 >.content > .desc {
+    display: flex;
+    color: #e1d6de;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    
+}
 
-#section1 span {
+#section1 > .content > .desc > #compsci {
+    transition: 1s;
+    opacity: 0;
+    transition-delay: 1.2s;
+}
+
+#section1 > .content > .desc > #college {
+    transition: 1s;
+    opacity: 0;
+    transition-delay: 1.7s;
+}
+
+#section1 >.content >.desc > span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#section1 > .content > #name_homepage{
     color: #e1d6de;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
@@ -112,7 +146,7 @@ a {
 }
 
 .content {
-    animation: scrollreveal ease 1s; 
+    animation: scrollreveal ease 0.6s; 
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: forwards;
