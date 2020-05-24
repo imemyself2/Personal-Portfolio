@@ -21,6 +21,12 @@ ul {
     padding: 0;
     margin: 0;
     list-style: none;
+    border-bottom: solid thin rgba(188, 226, 21, 0.747);
+    border-radius: 15%;
+    transition: ease-in 1s;
+    transition-delay: 2.5s;
+   
+    
 }
 
 li {
@@ -33,17 +39,25 @@ a {
     display: inline-flex;
     justify-content: center;
     text-decoration: none;
-    color:  #e1d6de ;
+    color:  whitesmoke ;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: large;
     /* font-weight: bold; */
 }
 
+li > a:hover {
+    color: rgb(173, 175, 166);
+    transition: 0.3s;
+    text-shadow: 0 0 3px #FF0000;
+    
+}
+
 #navbar {
     transition: 1s;
     opacity: 0;
     transition-delay: 2.2s;
+    
 }
 
 #section1 {
@@ -165,3 +179,37 @@ a {
 h2 {
     color: whitesmoke;
 }
+
+/* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1a1a1d;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 3px;
+}
+
+.fa-github {
+    background: transparent;
+    color: whitesmoke;
+    width: 75px
+}
+
+.fa-linkedin {
+    background: transparent;
+    color: whitesmoke;
+}
+
+.fa::before {
+    font-size: large;
+} */
