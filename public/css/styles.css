@@ -4,6 +4,7 @@ html {
 
 body {
     background: rgb(0, 0, 0);
+
 }
 
 nav {
@@ -178,6 +179,33 @@ li > a:hover {
 
 h2 {
     color: whitesmoke;
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#pic {
+    width: 320px;
+    height: 480px;
+    /* border-radius: 5%;
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.image-text{
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    font-family: 'Prompt', sans-serif;
+    justify-content: left;
+    padding-left: 5%;
 }
 
 /* .footer {
