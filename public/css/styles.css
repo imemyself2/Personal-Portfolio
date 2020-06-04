@@ -183,7 +183,7 @@ h2 {
 
 .about-content{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 4fr 1fr;
 }
 
 .about-image {
@@ -195,6 +195,7 @@ h2 {
 #pic {
     width: 320px;
     height: 480px;
+    border-bottom: solid rgb(189, 226, 21);
     /* border-radius: 5%;
     box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
@@ -206,6 +207,23 @@ h2 {
     font-family: 'Prompt', sans-serif;
     justify-content: left;
     padding-left: 5%;
+}
+
+.about-text {
+    color: #e1d6de;
+    display: flex;
+    flex-direction: column;
+    /* border: solid; */
+    width: 100%;
+    margin: 4%;
+    padding: 4%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+p {
+    margin: 3px;
 }
 
 /* .footer {
