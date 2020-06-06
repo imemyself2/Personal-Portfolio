@@ -25,7 +25,7 @@ ul {
     border-bottom: solid thin rgba(188, 226, 21, 0.747);
     border-radius: 15%;
     transition: ease-in 1s;
-    transition-delay: 2.5s;
+    transition-delay: 2.9s;
    
     
 }
@@ -57,7 +57,7 @@ li > a:hover {
 #navbar {
     transition: 1s;
     opacity: 0;
-    transition-delay: 2.2s;
+    transition-delay: 2.5s;
     
 }
 
@@ -88,13 +88,13 @@ li > a:hover {
 #section1 > .content > .desc > #compsci {
     transition: 1s;
     opacity: 0;
-    transition-delay: 1.2s;
+    transition-delay: 1.5s;
 }
 
 #section1 > .content > .desc > #college {
     transition: 1s;
     opacity: 0;
-    transition-delay: 1.7s;
+    transition-delay: 2.0s;
 }
 
 #section1 >.content >.desc > span {
@@ -226,6 +226,55 @@ p {
     margin: 3px;
 }
 
+.about-content > a {
+    margin: 3px;
+}
+
+.options {
+    height: 100%;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.text {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    font-size: xx-large;
+    text-shadow : 1px 1px 3px whitesmoke;
+    color: whitesmoke;
+}
+
+.text:hover {
+    color: aquamarine;
+    text-shadow : 1px 1px 3px aquamarine;
+    transition: 0.7s;
+
+}
+
+.border {
+    border-bottom: solid rgb(188, 207, 206);
+    height: 50px;
+    width: 170px;
+    display: grid;
+    justify-content: center;
+    border-radius: 10%;
+
+}
+
+
+.right-arrow {
+    margin: 10px;
+    padding: 50px;
+}
+
+.left-arrow {
+    margin: 10px;
+    padding: 50px;
+}
 /* .footer {
     position: fixed;
     left: 0;
