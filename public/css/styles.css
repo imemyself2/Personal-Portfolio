@@ -226,8 +226,12 @@ p {
     margin: 3px;
 }
 
-.about-content > a {
-    margin: 3px;
+.about-text > a {
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: bold; */
+    font-size: xx-large;
+    justify-content: left;
+    padding: 0;
 }
 
 .options {
@@ -263,6 +267,44 @@ p {
     justify-content: center;
     border-radius: 10%;
 
+}
+
+.project-block {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    /* background: whitesmoke; */
+    padding: 2%;
+    border-radius: 25px;
+    /* background-image: linear-gradient(to top left, rgb(196, 207, 207), rgb(228, 241, 241) ) */
+    margin: 4%;
+}
+
+.project-text > p{
+    text-align: left;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e1d6de;
+}
+
+.project-img {
+    display: grid;
+    justify-content: center;
+    
+}
+
+.project-img > a {
+    display: flex;
+    justify-content: right;
+    font-size: xx-large;
+    
+}
+
+.img-project {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
+    
 }
 
 
