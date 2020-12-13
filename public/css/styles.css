@@ -269,6 +269,10 @@ p {
 
 }
 
+.project-text > h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .project-block {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -281,7 +285,7 @@ p {
 
 .project-text > p{
     text-align: left;
-    font-size: x-large;
+    font-size: larger;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #e1d6de;
 }
@@ -301,7 +305,7 @@ p {
 
 .img-project {
     width: 300px;
-    height: 300px;
+    height: 600px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
     border-radius: 2px;
     
