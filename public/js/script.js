@@ -101,7 +101,7 @@ let counter = 0;
 fx.setText(phrases[counter]).then(() => {});
 document.getElementsByClassName('border')[0].addEventListener('click', function (event) {
     if(phrases[counter] == 'Resume'){
-        window.open('https://drive.google.com/file/d/1B9a0KSI5HyEYlOva-szcuCXJc_Qh0WSA/view?usp=sharing', "_blank");
+        window.open('https://drive.google.com/file/d/1MiMG2KrsorL_xD88W5UfYCThZgKrK9vg/view?usp=sharing', "_blank");
     }
     else if(phrases[counter] == "Github"){
         window.open('https://www.github.com/imemyself2', "_blank");
